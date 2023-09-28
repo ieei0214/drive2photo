@@ -8,15 +8,15 @@ Very draft version. Use at your own risk.
 
 # 2 Packages
 
-- [CasCap.Apis.GooglePhotos] (https://github.com/f2calv/CasCap.Apis.GooglePhotos)
+- [CasCap.Apis.GooglePhotos](https://github.com/f2calv/CasCap.Apis.GooglePhotos)
 ```
     string _user = null;//e.g. "your.email@mydomain.com";
     string _clientId = null;//e.g. "012345678901-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.apps.googleusercontent.com";
     string _clientSecret = null;//e.g. "abcabcabcabcabcabcabcabc";
 ```
-- [Google.Apis.Drive.v3/] (https://www.nuget.org/packages/Google.Apis.Drive.v3/)
+- [Google.Apis.Drive.v3/](https://www.nuget.org/packages/Google.Apis.Drive.v3/)
 
-Get the json from [Google API Console] (https://console.developers.google.com/apis/credentials)
+Get the json from [Google API Console](https://console.developers.google.com/apis/credentials)
 ```
     const string _credentialsJsonFile = "credentials-oauth.json";
 ```
