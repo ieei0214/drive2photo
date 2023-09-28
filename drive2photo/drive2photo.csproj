@@ -9,4 +9,9 @@
     <InvariantGlobalization>true</InvariantGlobalization>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="CasCap.Apis.GooglePhotos" Version="2.0.1" />
+    <PackageReference Include="Google.Apis.Drive.v3" Version="1.62.0.3155" />
+  </ItemGroup>
+
 </Project>
